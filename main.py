@@ -61,7 +61,7 @@ def process_brand(session: requests.Session, url: str, brand: str, drink_type: s
         "type_keywords": type_keywords,
         "category_keywords": category_keywords,
     }
-
+   
     last_good_query = None
     response = None
     step3_or_later = False
@@ -111,7 +111,7 @@ def query_step2(session: requests.Session, url: str, brand: str, step: int) -> T
 def query_step3(session: requests.Session, url: str, brand: str, type_keywords: List[str], category_keywords: List[str], step: int) -> Tuple[Optional[dict], str, bool]:
     # Build the query with mode "m"
     query_m = build_query(brand, mode="m")
-    query_optional_m = add_optional_keywords(query_m, list(category_keywords + type_keywords), mode="m")
+    query_optional_m = add_optional_keywords(query_m, category_keywords, mode="m")
     optional_threshold = query_optional_m["optionalThreshold"]
 
     # Test the query with optional keywords using mode "m"
@@ -170,7 +170,12 @@ def process_recursive(session: requests.Session, url: str, node: dict, category_
     # If the node contains children, process each child recursively
     else:
         for child in node["children"]:
-            process_recursive(session, url, child, category_keywords + node["keywords"], all_queries)
+            child_category_keywords = category_keywords.copy()
+            if not category_keywords:  # Only add general keywords if processing a root category
+                child_category_keywords += node["keywords"]
+            child_category_keywords += child["keywords"]
+        
+            process_recursive(session, url, child, child_category_keywords, all_queries)
 
 def main() -> None:
     # Create the "output" directory if it doesn't exist
@@ -184,6 +189,7 @@ def main() -> None:
     with open("alcohols.json") as f:
         alcohols = json.load(f)
 
+    # Paste adress URL to estimator 	
     url = ""
 
     # Create a new requests session and an empty list of queries

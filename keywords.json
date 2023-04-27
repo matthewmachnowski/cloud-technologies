@@ -1,18 +1,18 @@
 {
     "distilled": {
-        "general": ["spirits", "liqour", "cocktail"],
-        "vodka": ["vodka", "pure", "flavored", "strong", "martini", "ice", "grain"],
-        "whisky": ["whisky", "whiskies", "single malt", "scotch", "blended", "irish"],
+        "general": ["spirits", "liqour"],
+        "vodka": ["vodka", "pure", "flavored", "ice", "martini", "grain"],
+        "whisky": ["whisky", "whiskies", "distillery", "scotch", "blended", "irish"],
         "gin": ["gin", "dry", "flavored", "tonic", "cocktail", "martini"],
-        "rum": ["rum", "white", "dark", "mojito", "cuba", "sugar-cane", "tiki"],
+        "rum": ["rum", "white", "dark", "mojito", "cuba", "sugar-cane"],
         "tequila": ["tequila", "reposado", "lime", "salt", "blanco", "agave", "margarita"],
         "brandy": ["brandy", "cognac", "armagnac", "barrel"],
         "mezcal": ["mezcal", "joven", "smoky", "mezcalero", "worm"]
     },
     "fermented": {
         "general": ["brew", "ferment"],
-        "beer": ["beer", "lager", "pilsener", "ipa", "ale", "stout", "porter", "hops", "brewery", "yeast", "brew", "craft"],
-        "wine": ["wine", "red", "white", "rosé", "sweet", "dry", "tannic", "crisp", "oaky", "full-bodied", "bubbly", "earthy", "aromatic", "bold", "vintage"],
+        "beer": ["beer", "lager", "pilsener", "ipa", "ale", "brewery", "stout", "porter", "hops", "yeast", "brew"],
+        "wine": ["wine", "red", "white", "rosé", "sweet", "dry", "tannic", "crisp", "aromatic", "bold"],
         "cider": ["cider", "dry", "sweet", "apple", "pear", "crisp", "fizzy"],
         "sake": ["sake", "junmai", "ginjo", "japan", "rice", "nigori", "rice-wine"]
     }
