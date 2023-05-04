@@ -1,19 +1,20 @@
 {
     "distilled": {
-        "general": ["spirits", "liqour"],
-        "vodka": ["vodka", "pure", "flavored", "ice", "martini", "grain"],
-        "whisky": ["whisky", "whiskies", "distillery", "scotch", "blended", "irish"],
-        "gin": ["gin", "dry", "flavored", "tonic", "cocktail", "martini"],
-        "rum": ["rum", "white", "dark", "mojito", "cuba", "sugar-cane"],
-        "tequila": ["tequila", "reposado", "lime", "salt", "blanco", "agave", "margarita"],
-        "brandy": ["brandy", "cognac", "armagnac", "barrel"],
-        "mezcal": ["mezcal", "joven", "smoky", "mezcalero", "worm"]
+        "general": ["spirits", "liquor", "spirituos", "alcools", "alkohol", "bebidas-espirituosas", "destilados", "Spirituosen", "Liköre"],
+        "vodka": ["vodka", "unflavored-vodka", "grain", "potato", "vodka-puro", "unaromatisiert-wodka"],
+        "whisky": ["whisky", "whiskey", "whiskies", "scotch", "blended", "irish", "bourbon", "rye", "whisky-irlandés", "bourbon", "centeno", "Destillerie", "schottisch", "blended", "irisch", "Bourbon", "Roggen"],
+        "gin": ["gin", "ginebra", "Gin", "London-Dry", "Old Tom", "Sloe-gin", "Schlehenlikör"],
+        "rum": ["rum", "spiced-rum", "aged-rum", "oscuro", "añejo", "Rum", "gold-rum"],
+        "tequila": ["tequila", "reposado", "agave", "anejo", "tequila", "Tequila"],
+        "brandy": ["brandy", "cognac", "armagnac", "barrel", "coñac", "barril", "Brandy", "Cognac", "Fass"],
+        "mezcal": ["mezcal", "joven", "smoky", "mezcalero", "worm", "joven", "ahumado", "gusano", "Mezcal", "rauchig"],
+        "liqueur": ["liqueur", "cordial", "low-alcohol", "licor", "saborizado", "Licor", "aromatisiert", "Likör"]
     },
     "fermented": {
-        "general": ["brew", "ferment"],
-        "beer": ["beer", "lager", "pilsener", "ipa", "ale", "brewery", "stout", "porter", "hops", "yeast", "brew"],
-        "wine": ["wine", "red", "white", "rosé", "sweet", "dry", "tannic", "crisp", "aromatic", "bold"],
-        "cider": ["cider", "dry", "sweet", "apple", "pear", "crisp", "fizzy"],
-        "sake": ["sake", "junmai", "ginjo", "japan", "rice", "nigori", "rice-wine"]
+        "general": ["brew", "ferment", "cerveza", "vino", "fermentación", "Bräu", "gären", "Bier", "Wein"],
+        "beer": ["beer", "lager", "pilsener", "ipa", "ale", "brewery", "stout", "porter", "hops", "yeast", "brew", "cerveza", "cervecería", "lúpulo", "levadura", "Bier", "Lager", "Pilsner", "IPA", "Ale", "Brauerei", "Stout", "Porter", "Hopfen", "Hefe"],
+        "wine": ["wine", "red-wine", "white-wine", "rosé", "tannic", "bold", "sparkling-wine", "vino", "tinto", "taninos", "espumoso", "Wein", "tanninhaltig", "kräftig-wein", "Schaumwein"],
+        "cider": ["cider", "apple", "pear", "sidra", "manzana", "pera", "Cider", "Apfel", "Birne"],
+        "sake": ["sake", "junmai", "ginjo", "nigori", "rice-wine", "Sake"]
     }
 }
