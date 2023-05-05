@@ -1,86 +1,97 @@
 {
     "results": [
         {
-            "id": "3 Badge Beverage",
+            "id": "Iceberg",
             "required": [
                 {
-                    "keyword": "3",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Badge",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Beverage",
+                    "keyword": "Iceberg",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "vodka",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Box",
+            "id": "Pearl",
             "required": [
                 {
-                    "keyword": "Box",
+                    "keyword": "Pearl",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Grey Goose",
+            "required": [
+                {
+                    "keyword": "Grey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Goose",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "liquor",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "vodka",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Absolut",
+            "required": [
                 {
-                    "keyword": "whisky",
+                    "keyword": "Absolut",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "scotch",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blended",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "irish",
+                    "keyword": "vodka",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Buffalo Trace Distillery",
+            "id": "SKYY",
             "required": [
                 {
-                    "keyword": "Buffalo",
+                    "keyword": "SKYY",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "liquor",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Trace",
+                    "keyword": "vodka",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Tito's",
+            "required": [
                 {
-                    "keyword": "Distillery",
+                    "keyword": "Tito-s",
                     "mode": "m"
                 }
             ],
@@ -90,395 +101,55 @@
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "liquor",
                     "mode": "m"
                 },
                 {
-                    "keyword": "whisky",
+                    "keyword": "vodka",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Vodka 14",
+            "required": [
+                {
+                    "keyword": "Vodka",
                     "mode": "m"
                 },
                 {
-                    "keyword": "whiskies",
+                    "keyword": "14",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
-                    "keyword": "distillery",
+                    "keyword": "vodka",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "De Graal",
+            "id": "Jack Daniels",
             "required": [
                 {
-                    "keyword": "De",
+                    "keyword": "Jack",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Graal",
+                    "keyword": "Daniels",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "whiskey",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "James Sedgwick",
-            "required": [
-                {
-                    "keyword": "James",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Sedgwick",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Limestone Branch Distillery",
-            "required": [
-                {
-                    "keyword": "Limestone",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Branch",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Distillery",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Penderyn",
-            "required": [
-                {
-                    "keyword": "Penderyn",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Rogue Spirits",
-            "required": [
-                {
-                    "keyword": "Rogue",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Spirits",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Square One",
-            "required": [
-                {
-                    "keyword": "Square",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "One",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "scotch",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blended",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "irish",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Waterford",
-            "required": [
-                {
-                    "keyword": "Waterford",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "scotch",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blended",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "irish",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Wilderness Trail Distillery",
-            "required": [
-                {
-                    "keyword": "Wilderness",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Trail",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Distillery",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Willett Distillery",
-            "required": [
-                {
-                    "keyword": "Willett",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Distillery",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Woodford Reserve",
-            "required": [
-                {
-                    "keyword": "Woodford",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Reserve",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Yamazaki",
-            "required": [
-                {
-                    "keyword": "Yamazaki",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
+                    "keyword": "rye",
                     "mode": "m"
                 }
             ],
@@ -498,11 +169,451 @@
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Jim Beam",
+            "required": [
+                {
+                    "keyword": "Jim",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "Beam",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Crown Royal",
+            "required": [
+                {
+                    "keyword": "Crown",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Royal",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Glenfiddich",
+            "required": [
+                {
+                    "keyword": "Glenfiddich",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskies",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Ole Smoky",
+            "required": [
+                {
+                    "keyword": "Ole",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Smoky",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Woodford Reserve",
+            "required": [
+                {
+                    "keyword": "Woodford",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Reserve",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Buffalo Trace",
+            "required": [
+                {
+                    "keyword": "Buffalo",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Trace",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Ardbeg",
+            "required": [
+                {
+                    "keyword": "Ardbeg",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Bowmore",
+            "required": [
+                {
+                    "keyword": "Bowmore",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "scotch",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Jameson Irish Whiskey",
+            "required": [
+                {
+                    "keyword": "Jameson",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Irish",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "liquor",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 3
+        },
+        {
+            "id": "WhistlePig",
+            "required": [
+                {
+                    "keyword": "WhistlePig",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Laphroaig",
+            "required": [
+                {
+                    "keyword": "Laphroaig",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "scotch",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Chivas",
+            "required": [
+                {
+                    "keyword": "Chivas",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "scotch",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "blended",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Benromach",
+            "required": [
+                {
+                    "keyword": "Benromach",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Rogue Ales Spirits",
+            "required": [
+                {
+                    "keyword": "Rogue",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ales",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spirits",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Old Forester",
+            "required": [
+                {
+                    "keyword": "Old",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Forester",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "scotch",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 3
+        },
+        {
+            "id": "Four Roses",
+            "required": [
+                {
+                    "keyword": "Four",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Roses",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "George Dickel",
+            "required": [
+                {
+                    "keyword": "George",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Dickel",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Bulleit",
+            "required": [
+                {
+                    "keyword": "Bulleit",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Lagavulin",
+            "required": [
+                {
+                    "keyword": "Lagavulin",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Wigle",
+            "required": [
+                {
+                    "keyword": "Wigle",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Fireball",
+            "required": [
+                {
+                    "keyword": "Fireball",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
                     "mode": "m"
                 },
                 {
@@ -513,10 +624,158 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Jameson",
+            "id": "Penderyn",
             "required": [
                 {
-                    "keyword": "Jameson",
+                    "keyword": "Penderyn",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Buchanans",
+            "required": [
+                {
+                    "keyword": "Buchanans",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "scotch",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "blended",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 3
+        },
+        {
+            "id": "The Yamazaki",
+            "required": [
+                {
+                    "keyword": "The",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Yamazaki",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Irishman",
+            "required": [
+                {
+                    "keyword": "Irishman",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Hibiki",
+            "required": [
+                {
+                    "keyword": "Hibiki",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Cleveland",
+            "required": [
+                {
+                    "keyword": "Cleveland",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "liquor",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Stolen",
+            "required": [
+                {
+                    "keyword": "Stolen",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Green Spot",
+            "required": [
+                {
+                    "keyword": "Green",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spot",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Craigellachie",
+            "required": [
+                {
+                    "keyword": "Craigellachie",
                     "mode": "m"
                 }
             ],
@@ -524,21 +783,217 @@
                 {
                     "keyword": "spirits",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Elijah Craig",
+            "required": [
                 {
-                    "keyword": "liqour",
+                    "keyword": "Elijah",
                     "mode": "m"
                 },
                 {
-                    "keyword": "whisky",
+                    "keyword": "Craig",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
                     "mode": "m"
                 },
                 {
-                    "keyword": "whiskies",
+                    "keyword": "bourbon",
                     "mode": "m"
                 },
                 {
-                    "keyword": "distillery",
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Blantons",
+            "required": [
+                {
+                    "keyword": "Blantons",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Eagle Rare",
+            "required": [
+                {
+                    "keyword": "Eagle",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Rare",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Jack Ryan",
+            "required": [
+                {
+                    "keyword": "Jack",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ryan",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Rebellion",
+            "required": [
+                {
+                    "keyword": "Rebellion",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Tipperary",
+            "required": [
+                {
+                    "keyword": "Tipperary",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Milam Greene",
+            "required": [
+                {
+                    "keyword": "Milam",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Greene",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Indiana Whiskey",
+            "required": [
+                {
+                    "keyword": "Indiana",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Henry McKenna",
+            "required": [
+                {
+                    "keyword": "Henry",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "McKenna",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "The Exceptional",
+            "required": [
+                {
+                    "keyword": "The",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Exceptional",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
                     "mode": "m"
                 }
             ],
@@ -558,26 +1013,6 @@
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whisky",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "distillery",
-                    "mode": "m"
-                },
-                {
                     "keyword": "scotch",
                     "mode": "m"
                 },
@@ -589,10 +1024,70 @@
             "optionalThreshold": 2
         },
         {
-            "id": "Glenfiddich",
+            "id": "BLACKENED",
             "required": [
                 {
-                    "keyword": "Glenfiddich",
+                    "keyword": "BLACKENED",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Henderson Whiskey",
+            "required": [
+                {
+                    "keyword": "Henderson",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Republic",
+            "required": [
+                {
+                    "keyword": "Republic",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Kansas",
+            "required": [
+                {
+                    "keyword": "Kansas",
                     "mode": "m"
                 }
             ],
@@ -600,255 +1095,578 @@
                 {
                     "keyword": "spirits",
                     "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Whiskey 43",
+            "required": [
+                {
+                    "keyword": "Whiskey",
+                    "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "43",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Reillys",
+            "required": [
+                {
+                    "keyword": "Reillys",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Cinerator",
+            "required": [
+                {
+                    "keyword": "Cinerator",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Proof",
+            "required": [
+                {
+                    "keyword": "Proof",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "rye",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Skrewball Whiskey",
+            "required": [
+                {
+                    "keyword": "Skrewball",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Sheep Dog",
+            "required": [
+                {
+                    "keyword": "Sheep",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Dog",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Root Out",
+            "required": [
+                {
+                    "keyword": "Root",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Out",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Yellow Spot",
+            "required": [
+                {
+                    "keyword": "Yellow",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spot",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Red Spot",
+            "required": [
+                {
+                    "keyword": "Red",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spot",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Donegal",
+            "required": [
+                {
+                    "keyword": "Donegal",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Wolfhound",
+            "required": [
+                {
+                    "keyword": "Wolfhound",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Irish American",
+            "required": [
+                {
+                    "keyword": "Irish",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "American",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Ri 1",
+            "required": [
+                {
+                    "keyword": "Ri",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "1",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Tennessee",
+            "required": [
+                {
+                    "keyword": "Tennessee",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Legado Whiskey",
+            "required": [
+                {
+                    "keyword": "Legado",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Native",
+            "required": [
+                {
+                    "keyword": "Native",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "House Spirits",
+            "required": [
+                {
+                    "keyword": "House",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spirits",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Sugarlands",
+            "required": [
+                {
+                    "keyword": "Sugarlands",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Noahs Mill",
+            "required": [
+                {
+                    "keyword": "Noahs",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Mill",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whiskey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Sullivan",
+            "required": [
+                {
+                    "keyword": "Sullivan",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "irish",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Virginia Gentleman",
+            "required": [
+                {
+                    "keyword": "Virginia",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Gentleman",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Royal",
+            "required": [
+                {
+                    "keyword": "Royal",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Monkey Shoulder",
+            "required": [
+                {
+                    "keyword": "Monkey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Shoulder",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "whisky",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "JB",
+            "required": [
+                {
+                    "keyword": "JB",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "bourbon",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bourbon",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "John Barr",
+            "required": [
+                {
+                    "keyword": "John",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Barr",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "scotch",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "blended",
                     "mode": "m"
                 },
                 {
                     "keyword": "whisky",
                     "mode": "m"
-                },
-                {
-                    "keyword": "whiskies",
-                    "mode": "m"
                 }
             ],
-            "optionalThreshold": 1
+            "optionalThreshold": 3
         },
         {
-            "id": "Hendrick's",
+            "id": "Black White",
             "required": [
                 {
-                    "keyword": "Hendrick-s",
+                    "keyword": "Black",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "White",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
+                    "keyword": "blended",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Engine",
+            "id": "Islay",
             "required": [
                 {
-                    "keyword": "Engine",
+                    "keyword": "Islay",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
+                    "keyword": "scotch",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Mare",
+            "id": "Lee Spirits",
             "required": [
                 {
-                    "keyword": "Mare",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
+                    "keyword": "Lee",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Mermaid",
-            "required": [
-                {
-                    "keyword": "Mermaid",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Hendrick's Neptunia",
-            "required": [
-                {
-                    "keyword": "Hendrick-s",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Neptunia",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Le",
-            "required": [
-                {
-                    "keyword": "Le",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Japanese",
-            "required": [
-                {
-                    "keyword": "Japanese",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "One",
-            "required": [
-                {
-                    "keyword": "One",
+                    "keyword": "Spirits",
                     "mode": "m"
                 }
             ],
@@ -861,372 +1679,16 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Hendrick's",
-            "required": [
-                {
-                    "keyword": "Hendrick-s",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Sul Dry",
-            "required": [
-                {
-                    "keyword": "Sul",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Dry",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Beefeater",
-            "required": [
-                {
-                    "keyword": "Beefeater",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Hospitality",
-            "required": [
-                {
-                    "keyword": "Hospitality",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Wild Cat",
-            "required": [
-                {
-                    "keyword": "Wild",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Cat",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Lord",
-            "required": [
-                {
-                    "keyword": "Lord",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Bombay Sapphire",
+            "id": "Bombay",
             "required": [
                 {
                     "keyword": "Bombay",
                     "mode": "m"
-                },
-                {
-                    "keyword": "Sapphire",
-                    "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "martini",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 2
-        },
-        {
-            "id": "Forest",
-            "required": [
-                {
-                    "keyword": "Forest",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "martini",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Only",
-            "required": [
-                {
-                    "keyword": "Only",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Hendrick's",
-            "required": [
-                {
-                    "keyword": "Hendrick-s",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Spring",
-            "required": [
-                {
-                    "keyword": "Spring",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
+                    "keyword": "liquor",
                     "mode": "m"
                 }
             ],
@@ -1242,11 +1704,7 @@
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
@@ -1257,68 +1715,16 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Bombay Sapphire",
+            "id": "Gordons",
             "required": [
                 {
-                    "keyword": "Bombay",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Sapphire",
+                    "keyword": "Gordons",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "gin",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tonic",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cocktail",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "martini",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 2
-        },
-        {
-            "id": "Beefeater",
-            "required": [
-                {
-                    "keyword": "Beefeater",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
@@ -1329,404 +1735,202 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Absolut",
+            "id": "Hendricks",
             "required": [
                 {
-                    "keyword": "Absolut",
+                    "keyword": "Hendricks",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
+                    "keyword": "gin",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Grey Goose",
+            "id": "Deaths Door Spirits",
             "required": [
                 {
-                    "keyword": "Grey",
+                    "keyword": "Deaths",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Goose",
+                    "keyword": "Door",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spirits",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Sun Liquor",
+            "required": [
+                {
+                    "keyword": "Sun",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Liquor",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
+                    "keyword": "liquor",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Smirnoff",
+            "id": "Kings",
             "required": [
                 {
-                    "keyword": "Smirnoff",
+                    "keyword": "Kings",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "vodka",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pure",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ice",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Tito's Handmade Vodka",
-            "required": [
-                {
-                    "keyword": "Tito-s",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Handmade",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Vodka",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
+                    "keyword": "ginebra",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 2
         },
         {
-            "id": "Skyy",
+            "id": "Gray Whale Gin",
             "required": [
                 {
-                    "keyword": "Skyy",
+                    "keyword": "Gray",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Whale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Gin",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
+                    "keyword": "gin",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Level",
+            "id": "Ginebra San Miguel",
             "required": [
                 {
-                    "keyword": "Level",
+                    "keyword": "Ginebra",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "San",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Miguel",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "vodka",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pure",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "N\u00ba 209",
-            "required": [
-                {
-                    "keyword": "N\u00ba",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "209",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pure",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Pearl",
-            "required": [
-                {
-                    "keyword": "Pearl",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Chase",
-            "required": [
-                {
-                    "keyword": "Chase",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pure",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Iceberg",
-            "required": [
-                {
-                    "keyword": "Iceberg",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Dutch",
-            "required": [
-                {
-                    "keyword": "Dutch",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pure",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ice",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "DQ",
-            "required": [
-                {
-                    "keyword": "DQ",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "vodka",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pure",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "flavored",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ice",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Bacardi",
-            "required": [
-                {
-                    "keyword": "Bacardi",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "rum",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "white",
+                    "keyword": "ginebra",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 2
         },
         {
-            "id": "Captain Morgan",
+            "id": "Highclere Castle",
             "required": [
                 {
-                    "keyword": "Captain",
+                    "keyword": "Highclere",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Morgan",
+                    "keyword": "Castle",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "Gin",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "gin",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "NB Gin",
+            "required": [
+                {
+                    "keyword": "NB",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Gin",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Luna Rum",
+            "required": [
+                {
+                    "keyword": "Luna",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Rum",
                     "mode": "m"
                 },
                 {
@@ -1737,20 +1941,20 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Malibu",
+            "id": "Malibu Rum",
             "required": [
                 {
                     "keyword": "Malibu",
                     "mode": "m"
+                },
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
+                    "keyword": "Rum",
                     "mode": "m"
                 },
                 {
@@ -1770,11 +1974,35 @@
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "liquor",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "Rum",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "rum",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Rum-bar rum",
+            "required": [
+                {
+                    "keyword": "Rum-bar",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "rum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Rum",
                     "mode": "m"
                 },
                 {
@@ -1785,20 +2013,108 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Kraken",
+            "id": "Hampden",
             "required": [
                 {
-                    "keyword": "Kraken",
+                    "keyword": "Hampden",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "liquor",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Bacardi",
+            "required": [
+                {
+                    "keyword": "Bacardi",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "liquor",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "Rum",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "rum",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Kraken Rum",
+            "required": [
+                {
+                    "keyword": "Kraken",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "rum",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Captain Morgan",
+            "required": [
+                {
+                    "keyword": "Captain",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Morgan",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "rum",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "spiced-rum",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Centenario",
+            "required": [
+                {
+                    "keyword": "Centenario",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Rum",
                     "mode": "m"
                 },
                 {
@@ -1822,11 +2138,7 @@
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
+                    "keyword": "Rum",
                     "mode": "m"
                 },
                 {
@@ -1837,10 +2149,44 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Atlantico",
+            "id": "Royal Rum",
             "required": [
                 {
-                    "keyword": "Atlantico",
+                    "keyword": "Royal",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Serum Rum",
+            "required": [
+                {
+                    "keyword": "Serum",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Rum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Rogue Spirits",
+            "required": [
+                {
+                    "keyword": "Rogue",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Spirits",
                     "mode": "m"
                 }
             ],
@@ -1848,93 +2194,81 @@
                 {
                     "keyword": "spirits",
                     "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "rum",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "white",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dark",
-                    "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Ron Centenario",
+            "id": "Jose Cuervo",
             "required": [
                 {
-                    "keyword": "Ron",
+                    "keyword": "Jose",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Centenario",
+                    "keyword": "Cuervo",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "tequila",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "rum",
+                    "keyword": "Tequila",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "1800",
+            "id": "1800 Tequila",
             "required": [
                 {
                     "keyword": "1800",
                     "mode": "m"
+                },
+                {
+                    "keyword": "Tequila",
+                    "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
                     "keyword": "tequila",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Tequila",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "1921",
+            "id": "Don Julio Tequila",
             "required": [
                 {
-                    "keyword": "1921",
+                    "keyword": "Don",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Julio",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Tequila",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
+                    "keyword": "agave",
                     "mode": "m"
                 },
                 {
-                    "keyword": "liqour",
+                    "keyword": "spirits",
                     "mode": "m"
                 },
                 {
@@ -1942,91 +2276,27 @@
                     "mode": "m"
                 },
                 {
-                    "keyword": "reposado",
+                    "keyword": "Tequila",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 3
+        },
+        {
+            "id": "Herradura",
+            "required": [
                 {
-                    "keyword": "lime",
+                    "keyword": "Herradura",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
+                    "keyword": "liquor",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
-        },
-        {
-            "id": "Alquimia",
-            "required": [
-                {
-                    "keyword": "Alquimia",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Asombroso",
-            "required": [
-                {
-                    "keyword": "Asombroso",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 2
         },
         {
             "id": "Clase Azul",
@@ -2042,421 +2312,113 @@
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
                     "keyword": "tequila",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Tequila",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "anejo",
                     "mode": "m"
                 }
             ],
-            "optionalThreshold": 1
+            "optionalThreshold": 2
         },
         {
-            "id": "Don Julio",
+            "id": "Grand Marnier Liqueur",
             "required": [
                 {
-                    "keyword": "Don",
+                    "keyword": "Grand",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Julio",
+                    "keyword": "Marnier",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Liqueur",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "agave",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 4
-        },
-        {
-            "id": "El Mayor",
-            "required": [
-                {
-                    "keyword": "El",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Mayor",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Jose Cuervo",
-            "required": [
-                {
-                    "keyword": "Jose",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Cuervo",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Madre",
-            "required": [
-                {
-                    "keyword": "Madre",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Qui",
-            "required": [
-                {
-                    "keyword": "Qui",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Siempre",
-            "required": [
-                {
-                    "keyword": "Siempre",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Jose Cuervo",
-            "required": [
-                {
-                    "keyword": "Jose",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Cuervo",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Don Julio",
-            "required": [
-                {
-                    "keyword": "Don",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Julio",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "tequila",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "reposado",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lime",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "salt",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "blanco",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "agave",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 4
-        },
-        {
-            "id": "Stock",
-            "required": [
-                {
-                    "keyword": "Stock",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "brandy",
+                    "keyword": "Cognac",
                     "mode": "m"
                 },
                 {
                     "keyword": "cognac",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "CIROC",
+            "required": [
                 {
-                    "keyword": "armagnac",
+                    "keyword": "CIROC",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
-                    "keyword": "barrel",
+                    "keyword": "liquor",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Christian Brothers",
+            "id": "Ciroc",
             "required": [
                 {
-                    "keyword": "Christian",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Brothers",
+                    "keyword": "Ciroc",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "brandy",
+                    "keyword": "liquor",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Nacional",
+            "id": "Madre Mezcal",
             "required": [
                 {
-                    "keyword": "Nacional",
+                    "keyword": "Madre",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Mezcal",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "spirits",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "liqour",
+                    "keyword": "Mezcal",
                     "mode": "m"
                 },
                 {
                     "keyword": "mezcal",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "SUSTO",
+            "required": [
+                {
+                    "keyword": "SUSTO",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
                 {
                     "keyword": "joven",
                     "mode": "m"
@@ -2465,54 +2427,174 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Heineken",
+            "id": "Grand Marnier",
             "required": [
                 {
-                    "keyword": "Heineken",
+                    "keyword": "Grand",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Marnier",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
+                    "keyword": "liqueur",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Guinness",
+            "id": "Campari",
             "required": [
                 {
-                    "keyword": "Guinness",
+                    "keyword": "Campari",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "liquor",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Frangelico",
+            "required": [
+                {
+                    "keyword": "Frangelico",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "liquor",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Chartreuse",
+            "required": [
+                {
+                    "keyword": "Chartreuse",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Bacardi Rum",
+            "required": [
+                {
+                    "keyword": "Bacardi",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "Rum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "liquor",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Kamora",
+            "required": [
+                {
+                    "keyword": "Kamora",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "liqueur",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Benedictine",
+            "required": [
+                {
+                    "keyword": "Benedictine",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Marie Brizard",
+            "required": [
+                {
+                    "keyword": "Marie",
                     "mode": "m"
                 },
+                {
+                    "keyword": "Brizard",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "spirits",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Schlafly",
+            "required": [
+                {
+                    "keyword": "Schlafly",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Night Shift",
+            "required": [
+                {
+                    "keyword": "Night",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Shift",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
                 {
                     "keyword": "beer",
                     "mode": "m"
@@ -2534,13 +2616,125 @@
             ],
             "optional": [
                 {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Sierra Nevada",
+            "required": [
+                {
+                    "keyword": "Sierra",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Nevada",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ipa",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "IPA",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Samuel Adams",
+            "required": [
+                {
+                    "keyword": "Samuel",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Adams",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                },
+                {
                     "keyword": "brew",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Sixpoint",
+            "required": [
+                {
+                    "keyword": "Sixpoint",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brewery",
                     "mode": "m"
                 },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Lagunitas Beer",
+            "required": [
+                {
+                    "keyword": "Lagunitas",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Beer",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "IPA",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "ipa",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Harpoon",
+            "required": [
+                {
+                    "keyword": "Harpoon",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
                 {
                     "keyword": "beer",
                     "mode": "m"
@@ -2549,30 +2743,102 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Creature Comforts Tropicalia",
+            "id": "SweetWater",
             "required": [
                 {
-                    "keyword": "Creature",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Comforts",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Tropicalia",
+                    "keyword": "SweetWater",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Elysian",
+            "required": [
+                {
+                    "keyword": "Elysian",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ipa",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "IPA",
                     "mode": "m"
                 },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "To l",
+            "required": [
+                {
+                    "keyword": "To",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "l",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "porter",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Porter",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Alaskan",
+            "required": [
+                {
+                    "keyword": "Alaskan",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Lord Hobo",
+            "required": [
+                {
+                    "keyword": "Lord",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Hobo",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
                 {
                     "keyword": "beer",
                     "mode": "m"
@@ -2590,33 +2856,61 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "brewery",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Ecliptic",
+            "required": [
+                {
+                    "keyword": "Ecliptic",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "Ale",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Narragansett",
+            "required": [
                 {
-                    "keyword": "beer",
+                    "keyword": "Narragansett",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
+                    "keyword": "IPA",
                     "mode": "m"
                 },
                 {
                     "keyword": "ipa",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Fulton",
+            "required": [
                 {
-                    "keyword": "ale",
+                    "keyword": "Fulton",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
                     "keyword": "brewery",
                     "mode": "m"
@@ -2625,28 +2919,92 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Alpine",
+            "id": "Samuel Smith",
             "required": [
                 {
-                    "keyword": "Alpine",
+                    "keyword": "Samuel",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Smith",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "brewery",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Lawsons Finest Liquids",
+            "required": [
+                {
+                    "keyword": "Lawsons",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "Finest",
                     "mode": "m"
                 },
+                {
+                    "keyword": "Liquids",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
                 {
                     "keyword": "beer",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
+        },
+        {
+            "id": "Indeed",
+            "required": [
+                {
+                    "keyword": "Indeed",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Redhook",
+            "required": [
+                {
+                    "keyword": "Redhook",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
         },
         {
             "id": "White Claw",
@@ -2662,14 +3020,6 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "beer",
                     "mode": "m"
                 }
@@ -2677,114 +3027,34 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Social Lager",
+            "id": "Summit",
             "required": [
                 {
-                    "keyword": "Social",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Lager",
+                    "keyword": "Summit",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "ale",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
+                    "keyword": "Ale",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Social IPA",
+            "id": "Guinness",
             "required": [
                 {
-                    "keyword": "Social",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "IPA",
+                    "keyword": "Guinness",
                     "mode": "m"
                 }
             ],
             "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Old Style",
-            "required": [
-                {
-                    "keyword": "Old",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Style",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
                 {
                     "keyword": "ale",
                     "mode": "m"
@@ -2794,29 +3064,563 @@
                     "mode": "m"
                 },
                 {
-                    "keyword": "stout",
+                    "keyword": "beer",
                     "mode": "m"
                 },
                 {
-                    "keyword": "porter",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "hops",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "yeast",
+                    "keyword": "Ale",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "India Beer",
+            "id": "Modern Times",
             "required": [
                 {
-                    "keyword": "India",
+                    "keyword": "Modern",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Times",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Lakefront",
+            "required": [
+                {
+                    "keyword": "Lakefront",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Mankato",
+            "required": [
+                {
+                    "keyword": "Mankato",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Grey Sail",
+            "required": [
+                {
+                    "keyword": "Grey",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Sail",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Heineken",
+            "required": [
+                {
+                    "keyword": "Heineken",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "pilsener",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "cerveza",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bier",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Ale Asylum",
+            "required": [
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Asylum",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Bootstrap",
+            "required": [
+                {
+                    "keyword": "Bootstrap",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Cerveza",
+            "required": [
+                {
+                    "keyword": "Cerveza",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "levadura",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "cerveza",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Mother Earth Brew Co",
+            "required": [
+                {
+                    "keyword": "Mother",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Earth",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Brew",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Co",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brew",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Alpine",
+            "required": [
+                {
+                    "keyword": "Alpine",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Dos Equis",
+            "required": [
+                {
+                    "keyword": "Dos",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Equis",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Busch",
+            "required": [
+                {
+                    "keyword": "Busch",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Genesee",
+            "required": [
+                {
+                    "keyword": "Genesee",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brew",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Cantillon",
+            "required": [
+                {
+                    "keyword": "Cantillon",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Carib",
+            "required": [
+                {
+                    "keyword": "Carib",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "DAB",
+            "required": [
+                {
+                    "keyword": "DAB",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Peroni",
+            "required": [
+                {
+                    "keyword": "Peroni",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Soleil",
+            "required": [
+                {
+                    "keyword": "Soleil",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Porter",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "porter",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Backwoods",
+            "required": [
+                {
+                    "keyword": "Backwoods",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "lager",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Lager",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Sol",
+            "required": [
+                {
+                    "keyword": "Sol",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "cerveza",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Beer Works",
+            "required": [
+                {
+                    "keyword": "Beer",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Works",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Infamous",
+            "required": [
+                {
+                    "keyword": "Infamous",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Epic",
+            "required": [
+                {
+                    "keyword": "Epic",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Beer Here",
+            "required": [
+                {
+                    "keyword": "Beer",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Here",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "ABK",
+            "required": [
+                {
+                    "keyword": "ABK",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Almaza",
+            "required": [
+                {
+                    "keyword": "Almaza",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Kirin",
+            "required": [
+                {
+                    "keyword": "Kirin",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "ODouls",
+            "required": [
+                {
+                    "keyword": "ODouls",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Zima",
+            "required": [
+                {
+                    "keyword": "Zima",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Baja",
+            "required": [
+                {
+                    "keyword": "Baja",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "vino",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Shotgun Beer",
+            "required": [
+                {
+                    "keyword": "Shotgun",
                     "mode": "m"
                 },
                 {
@@ -2826,45 +3630,65 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "beer",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Moritz",
+            "required": [
                 {
-                    "keyword": "lager",
+                    "keyword": "Moritz",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Porter",
                     "mode": "m"
                 },
                 {
-                    "keyword": "pilsener",
+                    "keyword": "porter",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Stout",
+            "required": [
                 {
-                    "keyword": "ipa",
+                    "keyword": "Stout",
                     "mode": "m"
-                },
+                }
+            ],
+            "optional": [
                 {
-                    "keyword": "ale",
+                    "keyword": "stout",
                     "mode": "m"
                 },
                 {
                     "keyword": "brewery",
                     "mode": "m"
+                },
+                {
+                    "keyword": "Stout",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
                 }
             ],
-            "optionalThreshold": 3
+            "optionalThreshold": 2
         },
         {
-            "id": "Adnams",
+            "id": "Dogfish",
             "required": [
                 {
-                    "keyword": "Adnams",
+                    "keyword": "Dogfish",
                     "mode": "m"
                 }
             ],
@@ -2872,21 +3696,29 @@
                 {
                     "keyword": "brew",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Sierra",
+            "required": [
                 {
-                    "keyword": "ferment",
+                    "keyword": "Sierra",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
                     "mode": "m"
                 },
                 {
-                    "keyword": "beer",
+                    "keyword": "Ale",
                     "mode": "m"
                 },
                 {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
+                    "keyword": "IPA",
                     "mode": "m"
                 },
                 {
@@ -2894,7 +3726,131 @@
                     "mode": "m"
                 },
                 {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Shed",
+            "required": [
+                {
+                    "keyword": "Shed",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "CBC",
+            "required": [
+                {
+                    "keyword": "CBC",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
                     "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Santa Cruz",
+            "required": [
+                {
+                    "keyword": "Santa",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Cruz",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Marlowe",
+            "required": [
+                {
+                    "keyword": "Marlowe",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Belching Beaver",
+            "required": [
+                {
+                    "keyword": "Belching",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Beaver",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ipa",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "IPA",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Victoria",
+            "required": [
+                {
+                    "keyword": "Victoria",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
                     "mode": "m"
                 },
                 {
@@ -2902,6 +3858,265 @@
                     "mode": "m"
                 }
             ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Real",
+            "required": [
+                {
+                    "keyword": "Real",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "porter",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Porter",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "vino",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 2
+        },
+        {
+            "id": "Grolsch",
+            "required": [
+                {
+                    "keyword": "Grolsch",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Bier",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Olympia",
+            "required": [
+                {
+                    "keyword": "Olympia",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "IPA",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "ipa",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Regia",
+            "required": [
+                {
+                    "keyword": "Regia",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Stag Beer",
+            "required": [
+                {
+                    "keyword": "Stag",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Beer",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "House Beer",
+            "required": [
+                {
+                    "keyword": "House",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Beer",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Lech",
+            "required": [
+                {
+                    "keyword": "Lech",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Alfa",
+            "required": [
+                {
+                    "keyword": "Alfa",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "961 Beer",
+            "required": [
+                {
+                    "keyword": "961",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Beer",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Anheuser",
+            "required": [
+                {
+                    "keyword": "Anheuser",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "brewery",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Primo",
+            "required": [
+                {
+                    "keyword": "Primo",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "IPA",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "vino",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "ipa",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Tura",
+            "required": [
+                {
+                    "keyword": "Tura",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "vino",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Edge",
+            "required": [
+                {
+                    "keyword": "Edge",
+                    "mode": "m"
+                }
+            ],
+            "optional": [],
             "optionalThreshold": 1
         },
         {
@@ -2914,11 +4129,7 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
+                    "keyword": "brewery",
                     "mode": "m"
                 },
                 {
@@ -2938,14 +4149,6 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "beer",
                     "mode": "m"
                 }
@@ -2962,15 +4165,27 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "beer",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Berliner",
+            "required": [
+                {
+                    "keyword": "Berliner",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "Hefe",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bier",
                     "mode": "m"
                 }
             ],
@@ -2984,36 +4199,7 @@
                     "mode": "m"
                 }
             ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
-                    "mode": "m"
-                }
-            ],
+            "optional": [],
             "optionalThreshold": 1
         },
         {
@@ -3026,99 +4212,11 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
+                    "keyword": "IPA",
                     "mode": "m"
                 },
                 {
                     "keyword": "ipa",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Cobra",
-            "required": [
-                {
-                    "keyword": "Cobra",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Coors",
-            "required": [
-                {
-                    "keyword": "Coors",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Corona",
-            "required": [
-                {
-                    "keyword": "Corona",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
                     "mode": "m"
                 }
             ],
@@ -3134,35 +4232,11 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
+                    "keyword": "brewery",
                     "mode": "m"
                 },
                 {
                     "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "brewery",
                     "mode": "m"
                 }
             ],
@@ -3177,14 +4251,6 @@
                 }
             ],
             "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
                 {
                     "keyword": "beer",
                     "mode": "m"
@@ -3202,55 +4268,11 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
                     "keyword": "ale",
                     "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Kirin",
-            "required": [
-                {
-                    "keyword": "Kirin",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
+                    "keyword": "Ale",
                     "mode": "m"
                 }
             ],
@@ -3266,23 +4288,7 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
+                    "keyword": "IPA",
                     "mode": "m"
                 },
                 {
@@ -3302,11 +4308,11 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "ale",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "Ale",
                     "mode": "m"
                 },
                 {
@@ -3334,59 +4340,19 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "ale",
                     "mode": "m"
                 },
                 {
-                    "keyword": "ferment",
+                    "keyword": "Ale",
                     "mode": "m"
                 },
                 {
                     "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 2
-        },
-        {
-            "id": "Peroni",
-            "required": [
-                {
-                    "keyword": "Peroni",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
         },
         {
             "id": "Point",
@@ -3396,36 +4362,7 @@
                     "mode": "m"
                 }
             ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
-                    "mode": "m"
-                }
-            ],
+            "optional": [],
             "optionalThreshold": 1
         },
         {
@@ -3438,43 +4375,47 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
+                    "keyword": "lager",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "porter",
                     "mode": "m"
                 },
                 {
                     "keyword": "ferment",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Lager",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Porter",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Samuel Adams",
+            "id": "San Miguel",
             "required": [
                 {
-                    "keyword": "Samuel",
+                    "keyword": "San",
                     "mode": "m"
                 },
                 {
-                    "keyword": "Adams",
+                    "keyword": "Miguel",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
+                    "keyword": "Bier",
                     "mode": "m"
                 }
             ],
-            "optionalThreshold": 2
+            "optionalThreshold": 1
         },
         {
             "id": "Sharps",
@@ -3486,159 +4427,15 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
                     "keyword": "ale",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Ale",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
-        },
-        {
-            "id": "Sierra Nevada",
-            "required": [
-                {
-                    "keyword": "Sierra",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Nevada",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 2
-        },
-        {
-            "id": "Sol",
-            "required": [
-                {
-                    "keyword": "Sol",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Stone",
-            "required": [
-                {
-                    "keyword": "Stone",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "brewery",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 3
         },
         {
             "id": "Vic Ale",
@@ -3652,185 +4449,24 @@
                     "mode": "m"
                 }
             ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "beer",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "lager",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "pilsener",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ipa",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ale",
-                    "mode": "m"
-                }
-            ],
+            "optional": [],
             "optionalThreshold": 1
         },
         {
-            "id": "Stone",
+            "id": "La Marca",
             "required": [
                 {
-                    "keyword": "Stone",
+                    "keyword": "La",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Marca",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cider",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "sweet",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Angry Orchard",
-            "required": [
-                {
-                    "keyword": "Angry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Orchard",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cider",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Bad Apple",
-            "required": [
-                {
-                    "keyword": "Bad",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Apple",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cider",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "sweet",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "apple",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 2
-        },
-        {
-            "id": "Thatchers",
-            "required": [
-                {
-                    "keyword": "Thatchers",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cider",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Savanna",
-            "required": [
-                {
-                    "keyword": "Savanna",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "cider",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "dry",
+                    "keyword": "espumoso",
                     "mode": "m"
                 }
             ],
@@ -3850,115 +4486,7 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "wine",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Black Box",
-            "required": [
-                {
-                    "keyword": "Black",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Box",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Jim Beam",
-            "required": [
-                {
-                    "keyword": "Jim",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Beam",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "white",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Blue Moon",
-            "required": [
-                {
-                    "keyword": "Blue",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "Moon",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
                     "mode": "m"
                 }
             ],
@@ -3974,111 +4502,35 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "wine",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bold",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
         },
         {
-            "id": "Patron",
+            "id": "LA MARCA",
             "required": [
                 {
-                    "keyword": "Patron",
+                    "keyword": "LA",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "MARCA",
                     "mode": "m"
                 }
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
+                    "keyword": "espumoso",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 1
-        },
-        {
-            "id": "Scales",
-            "required": [
-                {
-                    "keyword": "Scales",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "white",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Oreo",
-            "required": [
-                {
-                    "keyword": "Oreo",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "white",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 2
         },
         {
             "id": "STELLA ROSA",
@@ -4093,14 +4545,6 @@
                 }
             ],
             "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
                 {
                     "keyword": "wine",
                     "mode": "m"
@@ -4118,15 +4562,15 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "wine",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Bier",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "bold",
                     "mode": "m"
                 }
             ],
@@ -4149,66 +4593,6 @@
             "optionalThreshold": 1
         },
         {
-            "id": "Belle",
-            "required": [
-                {
-                    "keyword": "Belle",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
-            "id": "Roland",
-            "required": [
-                {
-                    "keyword": "Roland",
-                    "mode": "m"
-                }
-            ],
-            "optional": [
-                {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "wine",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "red",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "white",
-                    "mode": "m"
-                }
-            ],
-            "optionalThreshold": 1
-        },
-        {
             "id": "Vita",
             "required": [
                 {
@@ -4218,27 +4602,99 @@
             ],
             "optional": [
                 {
-                    "keyword": "brew",
-                    "mode": "m"
-                },
-                {
-                    "keyword": "ferment",
-                    "mode": "m"
-                },
-                {
                     "keyword": "wine",
                     "mode": "m"
-                },
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Stone",
+            "required": [
                 {
-                    "keyword": "red",
+                    "keyword": "Stone",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "pear",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Angry Orchard",
+            "required": [
+                {
+                    "keyword": "Angry",
                     "mode": "m"
                 },
                 {
-                    "keyword": "white",
+                    "keyword": "Orchard",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "cider",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Cider",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
+        },
+        {
+            "id": "Bad Apple",
+            "required": [
+                {
+                    "keyword": "Bad",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Apple",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "cider",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "apple",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Cider",
                     "mode": "m"
                 }
             ],
             "optionalThreshold": 2
+        },
+        {
+            "id": "Thatchers",
+            "required": [
+                {
+                    "keyword": "Thatchers",
+                    "mode": "m"
+                }
+            ],
+            "optional": [
+                {
+                    "keyword": "cider",
+                    "mode": "m"
+                },
+                {
+                    "keyword": "Cider",
+                    "mode": "m"
+                }
+            ],
+            "optionalThreshold": 1
         }
     ]
 }
